@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+}
+
+nav {
+	background-color: #bcbcbc;
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: #bcbcbc;
+	text-align: center;
+}
+
+.about_me_section {
+	background-color: #9e9c9c ;
+	text-align: center;
+}
+
+.projects_section {
+	text-align: center
+}
+
+.project_sidebar {
+	background-color: #bbb;
+}
+
+.project_1_info {
+	background-color: #ccc;
+}
+.project_2_info {
+	background-color: #bbb;
+}
+.project_3_info {
+	background-color: #ccc;
+}
+
+.contact_me_section {
+	text-align: center;
+	background-color: #bcbcbc;;
+}
+
+footer{
+	text-align: center;
+	background-color: #bcbcbc;
+}
