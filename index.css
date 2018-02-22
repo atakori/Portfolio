@@ -65,6 +65,11 @@ li a, li a:hover {
 	top: 0;
 }
 
+.about_me_title {
+	text-decoration: underline;
+	font-size: 2.5em;
+}
+
 .projects_section {
 	text-align: center
 }
