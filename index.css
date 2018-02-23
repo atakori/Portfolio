@@ -60,6 +60,18 @@ main {
     color: white;
 }
 
+
+.section_divider hr{
+	border: 2px solid black; 
+	border-radius: 30%;
+	width: 90%;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+	width: 60%;
+}
+
 .main_title {
 	font-size: 4.0em
 }
