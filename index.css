@@ -28,6 +28,16 @@ li a, li a:hover {
 	color: white;
 }
 
+main {
+	background-image:url(./images/3147.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .welcome_section {
 	position: absolute;  
   	min-height: 100%;
@@ -59,7 +69,6 @@ li a, li a:hover {
 }
 
 .about_me_section {
-	background-color: #9e9c9c ;
 	text-align: center;
 	position: relative;
 	top: 0;
@@ -75,22 +84,22 @@ li a, li a:hover {
 }
 
 .project_sidebar {
-	background-color: #bbb;
+	background-color: 
 }
 
 .project_1_info {
-	background-color: #ccc;
+	background-color: 
 }
 .project_2_info {
-	background-color: #bbb;
+	background-color: 
 }
 .project_3_info {
-	background-color: #ccc;
+	background-color: 
 }
 
 .contact_me_section {
 	text-align: center;
-	background-color: #bcbcbc;;
+	background-color: 
 }
 
 footer{
