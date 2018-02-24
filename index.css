@@ -20,9 +20,17 @@ main {
 	background-size: cover;
 }
 
-.section_divider hr{
-	margin-top: 0px;
+h4 {
+	font-weight: bold;
 }
+
+p {
+	font-size: 1.3em;
+}
+
+/*.section_divider hr{
+	margin-top: 0px;
+}*/
 
 .welcome_section {
 	position: absolute;  
@@ -44,13 +52,18 @@ main {
     top: 17%;
     width: 100%;
     color: black;
+    padding: auto 5%;
 }
 
 .nav_buttons {
-	display: flex;
-    justify-content: space-evenly;
     font-size: 1.3em;
-    margin-top: 20%;
+    padding-top: 2%;
+}
+
+.button_link {
+	display: block;
+	margin: 20px auto;
+	font-size: 1.2em;
 }
 
 
@@ -73,23 +86,29 @@ hr.style2 {
 	font-size: 2.5em	
 }
 
+.section_title {
+	font-size: 2.5em;
+	text-decoration: underline;
+}
+
 .about_me_section {
 	text-align: center;
 	position: relative;
 	top: 0;
-}
-
-.about_me_title {
-	text-decoration: underline;
-	font-size: 2.5em;
+	padding: 0% 5%;
 }
 
 .projects_section {
 	text-align: center
 }
 
-.project_sidebar {
-	background-color: 
+.project_sidebar a {
+	font-size: 1.2em;
+}
+
+.project_title {
+	font-size: 2.1em;
+	font-weight: bold;
 }
 
 .project_screenshot {
@@ -97,15 +116,10 @@ hr.style2 {
 	margin-bottom: 10px;
 }
 
-.project_1_info {
-	background-color: 
+.view_app_title, .view_code_title {
+	font-weight: bold;
 }
-.project_2_info {
-	background-color: 
-}
-.project_3_info {
-	background-color: 
-}
+
 
 .contact_me_section {
 	text-align: center;
