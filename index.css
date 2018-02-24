@@ -21,13 +21,16 @@ main {
 }
 
 h4 {
+	font-size: 2.1em;
 	font-weight: bold;
 	text-decoration: underline;
+	font-family: 'Teko', sans-serif;
 }
 
 p {
 	font-size: 1.3em;
 	padding: 0% 5%;
+	font-family: 'Sumana', serif;
 }
 
 /*.section_divider hr{
@@ -66,6 +69,7 @@ p {
 	display: block;
 	margin: 20px auto;
 	font-size: 1.2em;
+	font-family: 'Kanit', sans-serif;
 }
 
 
@@ -81,16 +85,19 @@ hr.style2 {
 }
 
 .main_title {
-	font-size: 4.0em
+	font-size: 4.0em;
+	font-family: 'Patua One', cursive;
 }
 
 .subtitle {
-	font-size: 2.5em	
+	font-size: 2.5em;
+	font-family: 'Kanit', sans-serif;
 }
 
 .section_title {
 	font-size: 2.5em;
 	text-decoration: underline;
+	font-family: 'Patua One', cursive;
 }
 
 
@@ -107,9 +114,10 @@ hr.style2 {
 }
 
 .project_title {
-	font-size: 2.1em;
+	font-size: 3.0em;
 	font-weight: bold;
 	text-decoration: underline;
+	font-family: 'Teko', sans-serif;
 }
 
 .project_screenshot {
@@ -118,7 +126,9 @@ hr.style2 {
 }
 
 .view_app_title, .view_code_title {
+	font-size: 1.7em;
 	font-weight: bold;
+	font-family: 'Teko', sans-serif;
 }
 
 
@@ -132,7 +142,9 @@ hr.style2 {
 }
 
 footer{
+	font-size: 1.2em;
 	text-align: center;
 	background-color: black;
 	color: #ddd;
+	font-family: 'Teko', sans-serif;
 }
