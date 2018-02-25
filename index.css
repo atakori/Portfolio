@@ -105,8 +105,23 @@ hr.style2 {
 	text-align: center;
 }
 
+.bitmoji_hi {
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	width: 50%;
+}
+
 .projects_section {
 	text-align: center
+}
+
+.my_projects_header{
+	font-size: 2.5em;
+	font-family: 'Patua One', cursive;
+}
+
+.project_span_title {
+	text-decoration: underline;
 }
 
 .project_sidebar a {
