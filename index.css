@@ -103,12 +103,14 @@ hr.style2 {
 
 .about_me_info {
 	text-align: center;
+	width: 100%;
 }
 
 .bitmoji_hi {
 	border-bottom: 2px solid black;
 	padding-bottom: 10px;
 	width: 50%;
+	max-width: 370px;
 }
 
 .projects_section {
@@ -138,6 +140,8 @@ hr.style2 {
 .project_screenshot {
 	border: 2px solid black;
 	margin-bottom: 10px;
+	max-width: 900px;
+
 }
 
 .view_app_title, .view_code_title {
@@ -162,4 +166,54 @@ footer{
 	background-color: black;
 	color: #ddd;
 	font-family: 'Teko', sans-serif;
+}
+
+@media(min-width: 850px) {
+	.nav_buttons {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 1%;
+		font-size:1.4em;
+	}
+	.button_link {
+		width: 20%;
+	}
+
+
+	.bitmoji_container {
+		float: left;
+		width: 50%;
+		height: 540px;
+		display: flex;
+		padding-left: 5%;
+	}
+
+	.bitmoji_hi {
+		border-bottom: none;
+		width: 100%;
+		max-width: none;
+	}
+
+	.about_me_title, .about_me_description {
+		float: right;
+		width: 50%;
+		clear: right;
+	}
+
+	hr{
+		clear: both;
+	}
+}
+
+@media(min-width: 1120px) {
+	.bitmoji_container {
+		height: 480px;
+	}	
+}
+
+@media(min-width: 1350px) {
+	.bitmoji_container {
+		width: 40%;
+		margin-left: 110px;
+	}	
 }
