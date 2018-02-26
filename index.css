@@ -187,6 +187,14 @@ footer{
 		display: flex;
 		padding-left: 5%;
 	}
+	.image_container.right {
+		float: right;
+		width: 50%;
+		height: 540px;
+		display: flex;
+		padding-right: 4%;
+		padding-left: 2%
+	}
 
 	.bitmoji_hi {
 		border-bottom: none;
@@ -198,6 +206,17 @@ footer{
 		float: right;
 		width: 50%;
 		clear: right;
+	}
+
+	.project_title.left, .project_description.left {
+		float:left;
+		clear: none;
+		padding-left: 10%;
+		padding-right: 5%;
+	}
+
+	.image_container.reduced {
+		height: 340px;
 	}
 
 	hr, .tech_title{
@@ -234,11 +253,20 @@ footer{
 	.image_container {
 		height: 480px;
 	}	
+	.image_container.reduced {
+		height: 390px;
+	}
 }
 
 @media(min-width: 1350px) {
 	.image_container, .technologies_list {
-		width: 40%;
-		margin-left: 110px;
+		width: 46%;
+    	margin-left: 50px;
 	}	
+
+	.image_container.right {
+		width: 46%;
+		margin-right: 50px;
+		margin-left: 0px;
+	}
 }
