@@ -51,11 +51,10 @@ p {
 
 .inner_container {
 	text-align: center;
-    position: absolute;
     top: 17%;
     width: 100%;
     color: black;
-    padding: auto 5%;
+    padding: 0% 5%;
 }
 
 .nav_buttons {
@@ -204,6 +203,12 @@ footer{
 
 footer a {
 	color: white;
+}
+
+@media(min-width: 385px) {
+	.inner_container {
+		position: absolute;
+	}
 }
 
 @media(min-width: 700px) {
