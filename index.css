@@ -156,8 +156,19 @@ hr.style2 {
 	background-color: 
 }
 
+.contact_card {
+    width: 60%;
+    max-width: 351px;
+    max-height: 200px;
+}
+
 .contact_links_container {
 	padding-bottom:20px ;
+}
+
+.contact_icon {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 footer{
@@ -255,6 +266,11 @@ footer{
 	}	
 	.image_container.reduced {
 		height: 390px;
+	}
+	.app_links {
+		height: 175px;
+		padding-right: 11%;
+    	padding-left: 5%;
 	}
 }
 
