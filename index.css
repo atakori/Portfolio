@@ -202,6 +202,10 @@ footer{
 	font-family: 'Teko', sans-serif;
 }
 
+footer a {
+	color: white;
+}
+
 @media(min-width: 700px) {
 	.contact_info {
 		width: 56%;
